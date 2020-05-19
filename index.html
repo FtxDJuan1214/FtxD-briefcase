@@ -1337,13 +1337,6 @@ N
                     <h4 class="  "><span class="btn btn-white-translucent"><i
                                     class="mdi mdi-shape-circle-plus "></i></span> <span class="js-greeting"></span>,
                         Luis!</h4>
-                    <p class="opacity-75 ">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad corporis dolores <br> doloribus
-                        esse et iste laboriosam maiores maxime, mollitia nisi numquam omnis praesentium provident quam
-                        quasi quia quisquam recusandae vel.
-                    </p>
-                    <a href="#" class="btn btn-white-translucent">View Reports</a>
-
                 </div>
             </div>
         </div>
@@ -1486,6 +1479,327 @@ N
 
 
             <div class="row">
+                <div class="col-lg-12 m-b-30">
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="card-title m-l-10">Projects</div>
+                                        <div class="card-controls">
+
+                                            <a href="#" class="js-card-refresh icon"> </a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12">
+                                    <button type="button" class="btn  btn-sm m-b-15 ml-2 mr-2 btn-primary" data-toggle="modal"
+                                    data-target=".bd-example-modal-sm">New project</button>
+                                    <div class="modal fade bd-example-modal-sm"  tabindex="-1" role="dialog"
+                                     aria-labelledby="mySmallModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered modal-sm" role="document">
+                                        <div class="modal-content">
+                                            <button type="button" class="close" data-dismiss="modal"
+                                                        aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                            </button>
+                                            <div class="modal-body">
+                                                <h3>Let´sprocces a new work request</h3>
+                                                <p>
+                                                    Please copy the original work request email
+                                                </p>
+                                                <div class="form-group">
+                                                    <label for="inputAddress">Work request</label>
+                                                    <input type="text" class="form-control" id="inputAddress" placeholder="">
+                                                </div>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                                                    Close
+                                                </button>
+                                                <button type="button" class="btn btn-primary">Create</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                    <button type="button" class="btn  btn-sm m-b-15 ml-2 mr-2 btn-secondary">Filter by date</button>
+                                    <button type="button" class="btn  btn-sm m-b-15 ml-2 mr-2 btn-secondary">Filter by company</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="table-responsive">
+
+                            <table class="table table-hover table-sm ">
+                                <thead>
+                                <tr>
+                                    <th>Project</th>
+                                    <th>Last invoice</th>
+                                    <th>Last week</th>
+                                    <th>Team</th>
+                                    <th>Type</th>
+                                    <th>Versions</th>
+                                    <th>Last delivery date</th>
+                                    <th>Remaining days</th>
+                                    <th>Company</th>
+                                    <th class="text-center">Actions</th>
+                                    <th></th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="align-middle">9E845565N</td>
+    
+                                        <td class="align-middle"><span class="badge badge-soft-primary badge-light">1007</span>
+                                        </td>
+                                        <td class="align-middle">126</td>
+                                        <!-- <td class="align-middle">
+                                            <div class="progress">
+                                                <div class="progress-bar" style="width: 12%"></div>
+                                            </div>
+                                        </td> -->
+                                        <td>
+                                            <div class="avatar-group align-items-center">
+    
+                                                <div class="avatar avatar-xs">
+                                                    <span class="avatar-title rounded-circle">LA</span>
+                                                </div>
+                                                <div class="avatar avatar-xs">
+                                                    <span class="avatar-title bg-primary rounded-circle">L</span>
+                                                </div>
+                                                <div class="avatar avatar-xs">
+                                                    <span class="avatar-title bg-dark rounded-circle">LF</span>
+                                                </div>
+                                                <div class="avatar avatar-xs">
+                                                    <span class="avatar-title bg-success rounded-circle">KY</span>
+                                                </div>
+                                                <div class="avatar avatar-xs">
+                                                    <span class="avatar-title rounded-circle">JC</span>
+                                                </div>
+    
+                                            </div>
+                                        </td>
+                                        <td class="align-middle">MCI</td>
+                                        <td class="align-middle">6</td>
+                                        <td class="align-middle text-secondary">2020-05-22</td>
+                                        <td class="align-middle text-success">3</td>
+                                        <td class="align-middle">Company name</td>
+                                        <td class="text-center align-middle"><a class="btn btn-primary btn-sm" href="project.html">
+                                                Go to project</a>
+                                        </td>
+                                        <td>
+                                            <div class="dropdown">
+                                                <a href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i
+                                                            class="icon mdi  mdi-dots-vertical"></i> </a>
+            
+                                                <div class="dropdown-menu dropdown-menu-right">
+                                                    <button class="dropdown-item" type="button">Assign project</button>
+                                                    <button class="dropdown-item" type="button">Edit project</button>
+                                                    <button class="dropdown-item" type="button">Delete project</button>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="align-middle">7E832772N</td>
+    
+                                        <td class="align-middle"><span class="badge badge-soft-primary badge-light">1008</span>
+                                        </td>
+                                        <td class="align-middle">126</td>
+                                        <!-- <td class="align-middle">
+                                            <div class="progress">
+                                                <div class="progress-bar" style="width: 12%"></div>
+                                            </div>
+                                        </td> -->
+                                        <td>
+                                            <div class="avatar-group align-items-center">
+
+                                                <div class="avatar avatar-xs">
+                                                    <span class="avatar-title rounded-circle">JC</span>
+                                                </div>
+                                                <div class="avatar avatar-xs">
+                                                    <span class="avatar-title bg-success rounded-circle">KY</span>
+                                                </div>
+                                                <div class="avatar avatar-xs">
+                                                    <span class="avatar-title bg-dark rounded-circle">LF</span>
+                                                </div>
+                                                
+    
+                                            </div>
+                                        </td>
+                                        <td class="align-middle">DPI</td>
+                                        <td class="align-middle">2</td>
+                                        <td class="align-middle text-secondary">2020-05-17</td>
+                                        <td class="align-middle text-danger">-2</td>
+                                        <td class="align-middle">Company name</td>
+                                        <td class="text-center align-middle"><a class="btn btn-primary btn-sm" href="project.html">
+                                                Go to project</a>
+                                        </td>
+                                        <td>
+                                            <div class="dropdown">
+                                                <a href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i
+                                                            class="icon mdi  mdi-dots-vertical"></i> </a>
+            
+                                                <div class="dropdown-menu dropdown-menu-right">
+                                                    <button class="dropdown-item" type="button">Assign project</button>
+                                                    <button class="dropdown-item" type="button">Edit project</button>
+                                                    <button class="dropdown-item" type="button">Delete project</button>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="align-middle">6EA94089N</td>
+    
+                                        <td class="align-middle"><span class="badge badge-soft-primary badge-light">1009</span>
+                                        </td>
+                                        <td class="align-middle">127</td>
+                                        <!-- <td class="align-middle">
+                                            <div class="progress">
+                                                <div class="progress-bar" style="width: 12%"></div>
+                                            </div>
+                                        </td> -->
+                                        <td>
+                                            <div class="avatar-group align-items-center">
+    
+                                                <div class="avatar avatar-xs">
+                                                    <span class="avatar-title rounded-circle">E</span>
+                                                </div>
+                                                <div class="avatar avatar-xs">
+                                                    <span class="avatar-title bg-primary rounded-circle">L</span>
+                                                </div>
+                                                <div class="avatar avatar-xs">
+                                                    <span class="avatar-title bg-dark rounded-circle">LF</span>
+                                                </div>
+    
+                                            </div>
+                                        </td>
+                                        <td class="align-middle">MCI</td>
+                                        <td class="align-middle">4</td>
+                                        <td class="align-middle">2020-05-12</td>
+                                        <td class="align-middle text-success">3</td>
+                                        <td class="align-middle">Company name</td>
+                                        <td class="text-center align-middle"><a class="btn btn-primary btn-sm" href="project.html">
+                                                Go to project</a>
+                                        </td>
+                                        <td>
+                                            <div class="dropdown">
+                                                <a href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i
+                                                            class="icon mdi  mdi-dots-vertical"></i> </a>
+            
+                                                <div class="dropdown-menu dropdown-menu-right">
+                                                    <button class="dropdown-item" type="button">Assign project</button>
+                                                    <button class="dropdown-item" type="button">Edit project</button>
+                                                    <button class="dropdown-item" type="button">Delete project</button>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="align-middle">8E830568N</td>
+    
+                                        <td class="align-middle"><span class="badge badge-soft-primary badge-light">1010</span>
+                                        </td>
+                                        <td class="align-middle">128</td>
+                                        <!-- <td class="align-middle">
+                                            <div class="progress">
+                                                <div class="progress-bar" style="width: 12%"></div>
+                                            </div>
+                                        </td> -->
+                                        <td>
+                                            <div class="avatar-group align-items-center">
+    
+                                                <div class="avatar avatar-xs">
+                                                    <span class="avatar-title rounded-circle">  PA</span>
+                                                </div>
+                                                <div class="avatar avatar-xs">
+                                                    <span class="avatar-title bg-dark rounded-circle">LF</span>
+                                                </div>
+                                                <div class="avatar avatar-xs">
+                                                    <span class="avatar-title bg-primary rounded-circle">GL</span>
+                                                </div>
+                                                                                          
+    
+                                            </div>
+                                        </td>
+                                        <td class="align-middle">COX</td>
+                                        <td class="align-middle">3</td>
+                                        <td class="align-middle">2020-04-28</td>
+                                        <td class="align-middle text-success">0</td>
+                                        <td class="align-middle">Company name</td>
+                                        <td class="text-center align-middle"><a class="btn btn-primary btn-sm" href="project.html">
+                                                Go to project</a>
+                                        </td>
+                                        <td>
+                                            <div class="dropdown">
+                                                <a href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i
+                                                            class="icon mdi  mdi-dots-vertical"></i> </a>
+            
+                                                <div class="dropdown-menu dropdown-menu-right">
+                                                    <button class="dropdown-item" type="button">Assign project</button>
+                                                    <button class="dropdown-item" type="button">Edit project</button>
+                                                    <button class="dropdown-item" type="button">Delete project</button>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="align-middle">8E8QOR768N</td>
+    
+                                        <td class="align-middle"><span class="badge badge-soft-primary badge-light">1011</span>
+                                        </td>
+                                        <td class="align-middle">129</td>
+                                        <!-- <td class="align-middle">
+                                            <div class="progress">
+                                                <div class="progress-bar" style="width: 12%"></div>
+                                            </div>
+                                        </td> -->
+                                        <td>
+                                            <div class="avatar-group align-items-center">
+    
+                                                <div class="avatar avatar-xs">
+                                                    <span class="avatar-title rounded-circle">JC</span>
+                                                </div>
+                                                <div class="avatar avatar-xs">
+                                                    <span class="avatar-title bg-primary rounded-circle">GL</span>
+                                                </div>
+                                                                                          
+    
+                                            </div>
+                                        </td>
+                                        <td class="align-middle">DPI</td>
+                                        <td class="align-middle">4</td>
+                                        <td class="align-middle">2020-04-16</td>
+                                        <td class="align-middle text-danger">-1</td>
+                                        <td class="align-middle">Company name</td>
+                                        <td class="text-center align-middle"><a class="btn btn-primary btn-sm" href="project.html">
+                                                Go to project</a>
+                                        </td>
+                                        <td>
+                                            <div class="dropdown">
+                                                <a href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i
+                                                            class="icon mdi  mdi-dots-vertical"></i> </a>
+            
+                                                <div class="dropdown-menu dropdown-menu-right">
+                                                    <button class="dropdown-item" type="button">Assign project</button>
+                                                    <button class="dropdown-item" type="button">Edit project</button>
+                                                    <button class="dropdown-item" type="button">Delete project</button>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>      
+                                </tbody>
+                            </table>
+
+                        </div>
+                        <div class="card-footer">
+                            <div class="d-flex  justify-content-between">
+                                <h6 class="m-b-0 my-auto"><span class="opacity-75"> <i class="mdi mdi-information"></i>See all FortexDesign projects</span>
+                                </h6>
+                                <a href="table_projects.html" class="btn btn-dark">View all projects</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
                 <div class="col-lg-6  m-b-30">
                     <div class="card">
                         <div class="card-header">
@@ -1560,188 +1874,7 @@ N
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-12 m-b-30">
-                    <div class="card">
-                        <div class="card-header">
-                            <div class="card-title">Last projects</div>
-
-                            <div class="card-controls">
-
-                                <a href="#" class="js-card-refresh icon"> </a>
-                                <div class="dropdown">
-                                    <a href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i
-                                                class="icon mdi  mdi-dots-vertical"></i> </a>
-
-                                    <div class="dropdown-menu dropdown-menu-right">
-                                        <button class="dropdown-item" type="button">Action</button>
-                                        <button class="dropdown-item" type="button">Another action</button>
-                                        <button class="dropdown-item" type="button">Something else here</button>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-
-                        <div class="table-responsive">
-
-                            <table class="table table-hover table-sm ">
-                                <thead>
-                                <tr>
-                                    <th>Project</th>
-                                    <th>Invoice</th>
-                                    <th>Week</th>
-                                    <th>Team</th>
-                                    <th>Type</th>
-                                    <th>Versions</th>
-                                    <th class="text-center">Actions</th>
-                                </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td class="align-middle">9E845565N</td>
-    
-                                        <td class="align-middle"><span class="badge badge-soft-success badge-light">1007</span>
-                                        </td>
-                                        <td class="align-middle">126</td>
-                                        <!-- <td class="align-middle">
-                                            <div class="progress">
-                                                <div class="progress-bar" style="width: 12%"></div>
-                                            </div>
-                                        </td> -->
-                                        <td>
-                                            <div class="avatar-group align-items-center">
-    
-                                                <div class="avatar avatar-xs">
-                                                    <span class="avatar-title rounded-circle">LA</span>
-                                                </div>
-                                                <div class="avatar avatar-xs">
-                                                    <span class="avatar-title bg-primary rounded-circle">L</span>
-                                                </div>
-                                                <div class="avatar avatar-xs">
-                                                    <span class="avatar-title bg-dark rounded-circle">LF</span>
-                                                </div>
-                                                <div class="avatar avatar-xs">
-                                                    <span class="avatar-title bg-success rounded-circle">KY</span>
-                                                </div>
-                                                <div class="avatar avatar-xs">
-                                                    <span class="avatar-title rounded-circle">JC</span>
-                                                </div>
-    
-                                            </div>
-                                        </td>
-                                        <td class="align-middle">MCI</td>
-                                        <td class="align-middle">6</td>
-                                        <td class="text-center align-middle"><a class="btn btn-primary btn-sm" href="project.html">
-                                                Go to project</a></td>
-                                    </tr>
-                                    <tr>
-                                        <td class="align-middle">7E832772N</td>
-    
-                                        <td class="align-middle"><span class="badge badge-soft-warning badge-light">1008</span>
-                                        </td>
-                                        <td class="align-middle">126</td>
-                                        <!-- <td class="align-middle">
-                                            <div class="progress">
-                                                <div class="progress-bar" style="width: 12%"></div>
-                                            </div>
-                                        </td> -->
-                                        <td>
-                                            <div class="avatar-group align-items-center">
-
-                                                <div class="avatar avatar-xs">
-                                                    <span class="avatar-title rounded-circle">JC</span>
-                                                </div>
-                                                <div class="avatar avatar-xs">
-                                                    <span class="avatar-title bg-success rounded-circle">KY</span>
-                                                </div>
-                                                <div class="avatar avatar-xs">
-                                                    <span class="avatar-title bg-dark rounded-circle">LF</span>
-                                                </div>
-                                                
-    
-                                            </div>
-                                        </td>
-                                        <td class="align-middle">DPI</td>
-                                        <td class="align-middle">2</td>
-                                        <td class="text-center align-middle"><a class="btn btn-primary btn-sm" href="project.html">
-                                                Go to project</a></td>
-                                    </tr>
-                                    <tr>
-                                        <td class="align-middle">6EA94089N</td>
-    
-                                        <td class="align-middle"><span class="badge badge-soft-warning badge-light">1009</span>
-                                        </td>
-                                        <td class="align-middle">127</td>
-                                        <!-- <td class="align-middle">
-                                            <div class="progress">
-                                                <div class="progress-bar" style="width: 12%"></div>
-                                            </div>
-                                        </td> -->
-                                        <td>
-                                            <div class="avatar-group align-items-center">
-    
-                                                <div class="avatar avatar-xs">
-                                                    <span class="avatar-title rounded-circle">E</span>
-                                                </div>
-                                                <div class="avatar avatar-xs">
-                                                    <span class="avatar-title bg-primary rounded-circle">L</span>
-                                                </div>
-                                                <div class="avatar avatar-xs">
-                                                    <span class="avatar-title bg-dark rounded-circle">LF</span>
-                                                </div>
-    
-                                            </div>
-                                        </td>
-                                        <td class="align-middle">MCI</td>
-                                        <td class="align-middle">4</td>
-                                        <td class="text-center align-middle"><a class="btn btn-primary btn-sm" href="project.html">
-                                                Go to project</a></td>
-                                    </tr>
-                                    <tr>
-                                        <td class="align-middle">8E830568N</td>
-    
-                                        <td class="align-middle"><span class="badge badge-soft-success badge-light">1010</span>
-                                        </td>
-                                        <td class="align-middle">128</td>
-                                        <!-- <td class="align-middle">
-                                            <div class="progress">
-                                                <div class="progress-bar" style="width: 12%"></div>
-                                            </div>
-                                        </td> -->
-                                        <td>
-                                            <div class="avatar-group align-items-center">
-    
-                                                <div class="avatar avatar-xs">
-                                                    <span class="avatar-title rounded-circle">  PA</span>
-                                                </div>
-                                                <div class="avatar avatar-xs">
-                                                    <span class="avatar-title bg-dark rounded-circle">LF</span>
-                                                </div>
-                                                <div class="avatar avatar-xs">
-                                                    <span class="avatar-title bg-primary rounded-circle">GL</span>
-                                                </div>
-                                                                                          
-    
-                                            </div>
-                                        </td>
-                                        <td class="align-middle">COX</td>
-                                        <td class="align-middle">3</td>
-                                        <td class="text-center align-middle"><a class="btn btn-primary btn-sm" href="project.html">
-                                                Go to project</a></td>
-                                    </tr>
-                                </tbody>
-                            </table>
-
-                        </div>
-                        <div class="card-footer">
-                            <div class="d-flex  justify-content-between">
-                                <h6 class="m-b-0 my-auto"><span class="opacity-75"> <i class="mdi mdi-information"></i>See all FortexDesign projects</span>
-                                </h6>
-                                <a href="table_projects.html" class="btn btn-dark">View all projects</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                
                 <!-- <div class="col-lg-4 m-b-30">
                     <div class="card ">
                         <div class="card-header">
