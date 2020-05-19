@@ -4,17 +4,20 @@
         $('#example').DataTable({
             //DataTable Options
         });
-        $('#example-height').DataTable({
-            scrollY:        '50vh',
+        $('#general-table').DataTable({
+            
             scrollCollapse: true,
-            paging:         false
+            paging:         true,
+            
         });
         $('#example-multi').DataTable({
             //DataTable Options
         });
-        $('#example-multi tbody').on( 'click', 'tr', function () {
+        $('#general-table tbody').on( 'click', 'tr', function () {
             $(this).toggleClass('bg-gray-400');
-        } );
+        });     
+           
+
     });
 
 })(window.jQuery);
