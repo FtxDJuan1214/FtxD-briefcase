@@ -1459,7 +1459,7 @@ N
                                     </div>
                                     <div class="col-lg-12">
                                         <button type="button" class="btn  btn-sm m-b-15 ml-2 mr-2 btn-primary" data-toggle="modal"
-                                        data-target=".bd-example-modal-sm">New version</button>
+                                        data-target="#slideRightModal">New version</button>
                                        </div>
                                 </div>
                             </div>
@@ -1480,7 +1480,6 @@ N
                                         <th>Estimated Completion</th>
                                         <th>Submited</th>
                                         <th>File name</th>
-                                        <th class="text-center">Actions</th>
                                         <th></th>
                                     </tr>
                                     </thead>
@@ -1522,7 +1521,7 @@ N
                                                     <div class="dropdown-menu dropdown-menu-right">
                                                         <button class="dropdown-item" type="button">Assign version</button>
                                                         <button class="dropdown-item" type="button" data-toggle="modal"
-                                        data-target="#slideRightModal">Edit version</button>
+                                                         data-target="#slideRightModal">Edit version</button>
                                                         <button class="dropdown-item" type="button">Delete version</button>
                                                     </div>
                                                 </div>
@@ -1623,31 +1622,133 @@ N
                         </div>
                     </div>
 
-                    <!-- Modal -->
-                    <div class="modal fade modal-slide-right" id="slideRightModal" tabindex="-1" role="dialog"
-                    aria-labelledby="slideRightModalLabel" aria-hidden="true">
-                   <div class="modal-dialog" role="document">
-                       <div class="modal-content">
-                           <div class="modal-header">
-                               <h5 class="modal-title" id="slideRightModalLabel">Modal title</h5>
-                               <button type="button" class="close" data-dismiss="modal"
-                                       aria-label="Close">
-                                   <span aria-hidden="true">&times;</span>
-                               </button>
-                           </div>
-                           <div class="modal-body">
-                               ...
-                           </div>
-                           <div class="modal-footer">
-                               <button type="button" class="btn btn-secondary" data-dismiss="modal">
-                                   Close
-                               </button>
-                               <button type="button" class="btn btn-primary">Save changes</button>
-                           </div>
-                       </div>
-                   </div>
-               </div>
+                    <div class="col-lg-4 m-b-30">
+                        <div class="card m-b-30">
+                            <div class="card-header">
+                                <div class="card-title">6EA94089N Files</div>
+                                <P>Total files: 16</P>
+                            </div>
 
+                            <div class="list-group list-group-flush ">
+                                <div class="list-group-item d-flex  align-items-center">
+                                    <div class="m-r-20">
+                                        <a href="#" class="btn btn-rounded-circle btn-lg btn-secondary">
+                                            <i class="mdi mdi-folder"></i>
+                                        </a>
+                                    </div>
+                                    <div class="">
+                                        <div>PERMITS</div>
+                                        <div class="text-muted">5 Files</div>
+                                    </div>
+                                </div>
+                                <div class="list-group-item d-flex  align-items-center">
+                                    <div class="m-r-20">
+                                        <a href="#" class="btn btn-rounded-circle btn-lg btn-secondary">
+                                            <i class="mdi mdi-folder"></i>
+                                        </a>
+                                    </div>
+                                    <div class="">
+                                        <div>DESIGN INFO</div>
+                                        <div class="text-muted">7 Files</div>
+                                    </div>
+                                </div>
+                                <div class="list-group-item d-flex  align-items-center">
+                                    <div class="m-r-20">
+                                        <a href="#" class="btn btn-rounded-circle btn-lg btn-secondary">
+                                            <i class="mdi mdi-folder"></i>
+                                        </a>
+                                    </div>
+                                    <div class="">
+                                        <div>RECORDS</div>
+                                        <div class="text-muted">4 Files</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-8 m-b-30">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="row"><div class="col-sm-12 col-md-6">
+                                    <div class="dataTables_length" id="example_length">
+                                        <div class="card-title m-l-8"><p style="font-size: 1.1rem;">PROJECT: 6EA94089N</p><br>
+                                            PERMITS/VER0N/</div></div></div></div>
+                                        <div class="col-sm-12 col-md-6">
+                                            <div id="example_filter" class="dataTables_filter">
+                                                <input type="file" class="custom-file-input" id="inputGroupFile02">
+                                                <label class="custom-file-label" for="inputGroupFile02"
+                                                >Choose file</label>
+                                            </div></div></div>
+                                <div class="table-responsive">
+                                    <table class="table align-td-middle table-card col-sm-12">
+                                        <thead>
+                                        <tr>
+                                            <th>File</th>
+                                            <th>Name</th>
+                                            <th>Open in drive</th>
+                                            <th>Download</th>
+                                            <th>Delete</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        <tr>
+                                            <td>
+                                                <div class="avatar avatar-xs ">
+                                                    <div class="avatar-title bg-danger rounded-circle mdi mdi-file-pdf">
+                    
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td>Tiger Nixon</td>
+                                            <td>
+                                                <div class="avatar avatar-xs ">
+                                                    <div class="avatar-title rounded-circle bg-info mdi mdi-google-drive"></div>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="avatar avatar-xs ">
+                                                    <div class="avatar-title rounded-circle bg-success mdi mdi-download"></div>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="avatar avatar-xs ">
+                                                    <div class="avatar-title rounded-circle bg-warning mdi mdi-delete"></div>
+                                                </div>
+                                            </td>
+                                        </tr>    
+                                        <tr>
+                                            <td>
+                                                <div class="avatar avatar-xs ">
+                                                    <div class="avatar-title bg-info rounded-circle mdi mdi-message">
+                    
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td>Tiger message</td>
+                                            <td>
+                                                <div class="avatar avatar-xs ">
+                                                    <div class="avatar-title rounded-circle bg-info mdi mdi-google-drive"></div>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="avatar avatar-xs ">
+                                                    <div class="avatar-title rounded-circle bg-success mdi mdi-download"></div>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="avatar avatar-xs ">
+                                                    <div class="avatar-title rounded-circle bg-warning mdi mdi-delete"></div>
+                                                </div>
+                                            </td>
+                                        </tr> 
+                                        </tbody>
+                                    </table>
+            
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
                     <div class="col-lg-5  m-b-30">
 
                         <div class="card">
@@ -1910,6 +2011,78 @@ N
     </div>
 </div>
 
+ <!-- Modal -->
+ <div class="modal fade modal-slide-right" id="slideRightModal" tabindex="-1" role="dialog"
+ aria-labelledby="slideRightModalLabel" aria-hidden="true">
+<div class="modal-dialog" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title" id="slideRightModalLabel">Version 0n</h5>
+            <button type="button" class="close" data-dismiss="modal"
+                    aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="modal-body">
+         <div class="form-group">
+             <label for="inputAddress">Version number</label>
+             <input type="text" class="form-control" id="inputAddress" placeholder="1234">
+         </div>
+
+         <label for="inputAddress">Version status</label>
+         <select class="form-control">
+             <option disabled selected>Version status</option>
+             <option>IN PROGRESS</option>
+             <option>SUBMITED</option>
+         </select>
+
+         <div class="form-group">
+             <label for="inputAddress">File name</label>
+             <input type="text" class="form-control" id="inputAddress" placeholder="File name" value="0W837017N_409 S FEDERAL HWY_DELRAY">
+         </div>
+
+         <div class=" form-group">
+
+             <label>Received date</label>
+             <input type="text" class="js-datepicker form-control" placeholder="Select a Date">
+         </div>
+         <div class="form-row">
+             <div class="for-group col-md-6">
+                 <div class=" form-group">
+
+                     <label>Request date</label>
+                     <input type="text" class="js-datepicker form-control" placeholder="Select a Date">
+                 </div>
+                 <div class=" form-group">
+
+                     <label>Date</label>
+                     <input type="text" class="js-datepicker form-control" placeholder="Select a Date">
+                 </div>
+             </div>
+             <div class="for-group col-md-6">
+                 <div class=" form-group">
+
+                     <label>Date</label>
+                     <input type="text" class="js-datepicker form-control" placeholder="Select a Date">
+                 </div>
+                 <div class=" form-group">
+
+                     <label>Date</label>
+                     <input type="text" class="js-datepicker form-control" placeholder="Select a Date">
+                 </div>
+             </div>
+         </div>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                Close
+            </button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+    </div>
+</div>
+</div>
+
   <!-- Large modal -->
 <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog"
 aria-labelledby="myLargeModalLabel" aria-hidden="true">
@@ -1937,6 +2110,8 @@ aria-labelledby="myLargeModalLabel" aria-hidden="true">
   </div>
 </div>
 </div>
+</body>
+</html>
 
 <script src="assets/vendor/jquery/jquery.min.js"></script>
 <script src="assets/vendor/jquery-ui/jquery-ui.min.js"></script>
@@ -1957,5 +2132,8 @@ aria-labelledby="myLargeModalLabel" aria-hidden="true">
 <script src="assets/js/apexchart-data.js"></script>
 <script src="assets/js/modal-data.js"></script>
 
-</body>
-</html>
+<script src="assets/vendor/timepicker/bootstrap-timepicker.min.js"></script>
+<script src="assets/vendor/datedropper/datedropper.min.js"></script>
+<script src="assets/vendor/dropzone/dropzone.js"   ></script>
+<script src="assets/vendor/jquery.mask/jquery.mask.min.js"></script>
+<script src="assets/js/form-data.js"></script>
