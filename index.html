@@ -28,9 +28,18 @@
 	<!-- Additional library for page -->
 	<link rel="stylesheet" type="text/css" href="assets/css/scrollbar.css">
 	<style>
-		*{
-			font-family: 'Roboto', sans-serif;
-		}
+		 @font-face{
+	font-family: "ftxd-font";
+	src:url('assets/fonts/ftxd-font/couture-bld.otf');
+    }
+
+	* {
+		font-family: 'Roboto', sans-serif;
+    }
+    
+    .ftxd-font{
+        font-family: 'ftxd-font', sans-serif;
+    }
 	</style>
 
 </head>
@@ -623,7 +632,7 @@
 			<div class="container col-lg-12">
 				<div class="row">
 					<div class="col-lg-6 m-auto text-white p-t-40 p-b-90 float-left">
-						<h1><span class="js-greeting"></span>,  Luis.</h1>       
+						<h1 class="ftxd-font"><span class="js-greeting ftxd-font"></span>,  Luis.</h1>       
 					</div>
 					<div class="col-lg-6 m-auto text-white p-t-40 p-b-90 float-right">
 						<div class="text-md-right">
@@ -690,7 +699,7 @@
 				<div class="card-header" style="padding: 5px;">
 					<div class="row">
 						<div class="col-lg-12">
-							<div class="card-title" style="font-size:18px;"><center>Projects</center></div>
+							<div class="card-title" style="font-size:18px;"><center class="ftxd-font">Projects</center></div>
 							<div class="card-controls">
 							</div>
 						</div>
@@ -702,16 +711,16 @@
 				<div class="table-responsive">
 
 					<table class="table table-hover table-sm ">
-						<thead>
+						<thead class="ftxd-font">
 							
-							<th>Week</th>
-							<th>Type</th>
-							<th>Invoce</th>
-							<th>Status</th>
-							<th>Project</th>
-							<th>Team</th>
-							<th>Version</th>
-							<th>Days</th>
+							<th class="ftxd-font">Week</th>
+							<th class="ftxd-font">Type</th>
+							<th class="ftxd-font">Invoce</th>
+							<th class="ftxd-font">Status</th>
+							<th class="ftxd-font">Project</th>
+							<th class="ftxd-font">Team</th>
+							<th class="ftxd-font">Version</th>
+							<th class="ftxd-font">Days</th>
 							<th class="align-items-right"></th>
 						</tr>
 					</thead>
@@ -1043,7 +1052,7 @@
 
 		<div class="card">
 			<div class="card-header" style="padding: 5px;">
-				<div class="card-title"><center>Project Map</center></div>
+				<div class="card-title"><center class="ftxd-font">Project Map</center></div>
 			</div>
 			<div class="card-body" style="padding: 5px;">
 				<div>
